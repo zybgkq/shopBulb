@@ -1,0 +1,216 @@
+.warp_main {
+	width: 100%;
+}
+
+
+/*led灯展示中间部分*/
+
+.main {
+	width: 96%;
+	max-width: 1200px;
+	height: 879px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+/*左边产品中心*/
+
+.main .main_le {
+	width: 25%;
+	float: left;
+	min-height: 1px;
+	height: 777px;
+}
+
+.main .main_le ul {
+	overflow: hidden;
+	width: 260px;
+	height: 467px;
+}
+
+.main .main_le ul li {
+	width: 258px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	margin-top: 3px;
+	transition: .5s;
+}
+
+.main .main_le ul li a {
+	width: 230px;
+	height: 40px;
+	display: block;
+	padding-left: 28px;
+}
+
+.main .main_le ul li:nth-of-type(1) {
+	border: 0;
+}
+
+.main .main_le ul li:nth-of-type(1) a {
+	font-size: 22px;
+	color: #8ec63f;
+	padding: 0;
+	font-weight: bold;
+}
+
+.main .main_le ul li span {
+	font-size: 12px;
+	color: #666;
+	transition: .5s;
+}
+
+.main .main_le ul li i {
+	float: right;
+	transition: .5s;
+	padding-right: 28px;
+	font-size: 12px;
+	color: #666;
+}
+
+.main .main_le ul li:hover {
+	background: #8ec63f;
+}
+
+.main .main_le ul li:nth-of-type(1):hover {
+	background: #FFFFFF;
+}
+
+.main .main_le ul li:hover span {
+	color: #fff;
+}
+
+.main .main_le ul li:hover i {
+	color: #fff;
+}
+
+.main .main_le ul li:focus {
+	background: #8ec63f;
+}
+
+
+/*联系我们*/
+
+.main .main_le ol {
+	width: 258px;
+	height: 279px;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+}
+
+.main .main_le ol li {
+	width: auto;
+	height: 40px;
+	margin: 0 29px 0 21px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+}
+
+.main .main_le ol li i {
+	margin: 0 5px 0 0;
+	color: #8ec63f;
+}
+
+.main .main_le ol li:nth-of-type(1) {
+	width: 230px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	background: #8ec63f;
+	padding-left: 28px;
+}
+
+.main .main_le ol li:nth-of-type(2) {
+	font-weight: bold;
+}
+
+.main .main_le ol li:nth-of-type(6) {
+	line-height: 20px;
+}
+
+
+/*LED面板灯*/
+
+.main .main_re {
+	width: 75%;
+	float: left;
+	min-height: 1px;
+	height: 860px;
+	margin-top: 10px;
+}
+
+.main .main_re .main_re_top {
+	height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.main .main_re .main_re_top p {
+	line-height: 30px;
+}
+
+.main .main_re .main_re_top .o {
+	float: left;
+	font-size: 20px;
+	color: #333;
+}
+
+.main .main_re .main_re_top .t {
+	float: right;
+}
+
+.main .main_re .main_re_top .t a {
+	font-size: 14px;
+	color: #666;
+}
+
+.main .main_re .main_re_btn {
+	height: 820px;
+	margin-top: 15px;
+}
+
+.main .main_re .main_re_btn dl {
+	width: 19%;
+	height: 207px;
+	margin-top: 20px;
+	float: left;
+	padding: 12px;
+	margin-right: 25px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.main .main_re .main_re_btn dl dt {
+	width: 174px;
+	height: 174px;
+}
+
+.main .main_re .main_re_btn dl dt img {
+	width: 174px;
+	height: 174px;
+	padding: 0;
+}
+
+.main .main_re .main_re_btn dl dd {
+	padding-top: 12px;
+	font-size: 14px;
+	color: #333;
+}
+
+.main .main_re .main_re_btn dl:hover {
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15)
+}
+
+.main .main_re .main_re_btn .last {
+	clear: both;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 29px;
+	width: 55px;
+	height: 29px;
+	font-size: 14px;
+	margin-left: 400px;
+	color: #333;
+}
